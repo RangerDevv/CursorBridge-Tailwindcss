@@ -502,22 +502,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-.left-40 {
-  left: 10rem;
-}
-
-.mr-11 {
-  margin-right: 2.75rem;
-}
-
-.mr-20 {
-  margin-right: 5rem;
-}
-
-.ml-64 {
-  margin-left: 16rem;
-}
-
 .flex {
   display: flex;
 }
@@ -540,12 +524,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-24 {
   width: 6rem;
-}
-
-.scale-150 {
-  --tw-scale-x: 1.5;
-  --tw-scale-y: 1.5;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .flex-col {
@@ -599,10 +577,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 1rem;
 }
 
-.p-0 {
-  padding: 0px;
-}
-
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -616,34 +590,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-52 {
   padding-top: 13rem;
   padding-bottom: 13rem;
-}
-
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
-.px-60 {
-  padding-left: 15rem;
-  padding-right: 15rem;
-}
-
-.py-72 {
-  padding-top: 18rem;
-  padding-bottom: 18rem;
-}
-
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-.pl-20 {
-  padding-left: 5rem;
-}
-
-.pb-28 {
-  padding-bottom: 7rem;
 }
 
 .pb-24 {
@@ -696,14 +642,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px) {
-  .md\:mr-20 {
-    margin-right: 5rem;
-  }
-
-  .md\:mr-48 {
-    margin-right: 12rem;
-  }
-
   .md\:mr-64 {
     margin-right: 16rem;
   }
@@ -716,33 +654,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: block;
   }
 
-  .md\:w-60 {
-    width: 15rem;
-  }
-
   .md\:w-80 {
     width: 20rem;
   }
 
-  .md\:w-96 {
-    width: 24rem;
-  }
-
-  .md\:w-px {
-    width: 1px;
-  }
-
-  .md\:w-10\/12 {
-    width: 83.333333%;
-  }
-
   .md\:translate-x-36 {
     --tw-translate-x: 9rem;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .md\:translate-x-64 {
-    --tw-translate-x: 16rem;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
@@ -761,19 +678,7 @@ Ensure the default browser behavior of the `hidden` attribute.
     flex-direction: row;
   }
 
-  .md\:pl-16 {
-    padding-left: 4rem;
-  }
-
-  .md\:pr-16 {
-    padding-right: 4rem;
-  }
-
   .md\:text-left {
     text-align: left;
-  }
-
-  .md\:text-right {
-    text-align: right;
   }
 }
