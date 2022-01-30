@@ -1,6 +1,6 @@
 module.exports = {
   DarkMode: 'Media',
-  content: ["./index.html"],
+  content: ["./index.html" , "./Components/**/*.html"],
   theme: {
     extend: {
     },
