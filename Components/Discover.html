@@ -8,9 +8,9 @@
     <title>CursorBridge-Discover</title>
 </head>
 <body class=" dark:bg-slate-900 bg-white">
-    <nav class=" p-4 flex">
+    <nav class=" py-4 md:p-4 flex">
         <div>
-            <p class=" text-black dark:text-white text-lg px-8">CursorBridge</p>
+            <p class=" text-black dark:text-white text-lg md:px-8">CursorBridge</p>
         </div>
         <div class=" container flex justify-end px-10 gap-10">
             <a href=""><p class=" text-black dark:text-white hidden md:block md:text-lg">Button</p></a>
@@ -19,14 +19,17 @@
                 <a href=""><p class=" text-black dark:text-white hidden md:block md:text-lg">Home</p> </a>
                 <a href=""> <p class=" text-black dark:text-white hidden md:block md:text-lg">Community</p> </a>
                 <a href=""> <p class=" text-black dark:text-white hidden md:block md:text-lg">Donate</p> </a>
-        </div>
-        <div class=" block dark:hidden md:hidden">
-            <img src="Images/MenuBlack.svg">
-        </div>
-
-        <div class=" hidden dark:block md:hidden">
-            <img src="Images/MenuWhite.svg">
+                <div class=" flex shrink-0 justify-center">
+                    <div class=" block dark:hidden md:hidden">
+                        <img src="Images/MenuBlack.svg" class=" shrink-0 grow-0">
+                    </div>
+            
+                    <div class=" hidden dark:block md:hidden">
+                        <img src="Images/MenuWhite.svg" class=" shrink-0 grow-0">
+                    </div>
+                </div>
         </div>
     </nav>
+
 </body>
 </html>
