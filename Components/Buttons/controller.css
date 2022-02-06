@@ -1,0 +1,12 @@
+#HTMLcontent {
+    display: block;
+}
+#CSScontent {
+    display: none;
+}
+#SVGcontent {
+    display: none;
+}
+#IMGcontent {
+    display: none;
+}
