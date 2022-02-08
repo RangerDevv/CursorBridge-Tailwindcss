@@ -502,14 +502,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-.-top-10 {
-  top: -2.5rem;
-}
-
-.-top-24 {
-  top: -6rem;
-}
-
 .m-8 {
   margin: 2rem;
 }
@@ -517,14 +509,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mx-14 {
   margin-left: 3.5rem;
   margin-right: 3.5rem;
-}
-
-.mb-56 {
-  margin-bottom: 14rem;
-}
-
-.-mb-14 {
-  margin-bottom: -3.5rem;
 }
 
 .block {
@@ -583,11 +567,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-shrink: 0;
 }
 
-.-translate-y-11 {
-  --tw-translate-y: -2.75rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .flex-row {
   flex-direction: row;
 }
@@ -610,10 +589,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-evenly {
-  justify-content: space-evenly;
 }
 
 .gap-4 {
@@ -724,51 +699,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.5rem;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.py-60 {
-  padding-top: 15rem;
-  padding-bottom: 15rem;
-}
-
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.py-0 {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
-.px-24 {
-  padding-left: 6rem;
-  padding-right: 6rem;
-}
-
 .px-28 {
   padding-left: 7rem;
   padding-right: 7rem;
 }
 
+.py-11 {
+  padding-top: 2.75rem;
+  padding-bottom: 2.75rem;
+}
+
 .pb-24 {
   padding-bottom: 6rem;
-}
-
-.pb-16 {
-  padding-bottom: 4rem;
-}
-
-.pb-56 {
-  padding-bottom: 14rem;
 }
 
 .text-center {
