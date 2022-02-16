@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CursorBridge</title>
+    <link rel="stylesheet" href="../../dist/output.css">
+    <link rel="stylesheet" href="./controller.css">
+</head>
+<body class="bg-white dark:bg-slate-900">
+    <div id="BodyPC" class="">
+        <div id="Back" class=" w-24 h-12 bg-red-600 rounded-xl m-8"><a href="./DiscoverSearchBars.html"><p class=" text-white text-lg flex justify-center py-2">Back</p></a></div>
+        <div id="Buttons" class=" flex md:justify-end gap-4 flex-row  justify-center md:px-40">
+            <button id="HTML" class=" w-24 h-14 rounded-lg bg-white">HTML</button>
+            <button id="CSS" class=" w-24 h-14 rounded-lg bg-white">CSS</button>
+            <button id="SVG" class=" w-24 h-14 rounded-lg bg-white">SVG</button>
+            <button id="IMG" class=" w-24 h-14 rounded-lg bg-white">IMG</button>
+        </div>
+        <div id="Image" class=" flex justify-center md:justify-start mx-14"><img class=" md:translate-y-20" src="Images/SeaBed.png"></div>
+        <div class=" flex justify-start md:justify-end px-28">
+            <iframe id="HTMLcontent" class="" src="https://www.thiscodeworks.com/embed/61e7396004f1520015d8d8a0" style="width: 50%; height: 138px;" frameborder="0"></iframe>
+            <iframe id="CSScontent" class=""src="https://www.thiscodeworks.com/embed/620c66e880e1cd0015bd9479" style="width: 50%; height: 515px;" frameborder="0"></iframe>
+            <iframe id="SVGcontent" class="" src="https://www.thiscodeworks.com/embed/620c663180e1cd0015bd9478" style="width: 50%; height: 281px;" frameborder="0"></iframe>
+            <div id="IMGcontent" class=" text-white">
+                <a href="./Images/Weed.png" download="Weed"> Download the Image here here.</a>
+                <p>Note: that if you are using SVG then you do not need to download the image.  </p>
+            </div>
+
+        </div>
+    </div>
+    <script src="./controller.js"></script>
+</body>
+</html>
