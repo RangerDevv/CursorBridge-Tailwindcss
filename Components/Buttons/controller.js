@@ -1,53 +1,35 @@
-document.getElementById("HTML").addEventListener("click", function(){
-    
-    if (document.getElementById("CSScontent").style.display == 'block' || document.getElementById("IMGcontent").style.display == 'block' || document.getElementById("SVGcontent").style.display == 'block') {
-        document.getElementById("CSScontent").style.display = 'none';
-        document.getElementById("IMGcontent").style.display = 'none';
-        document.getElementById("SVGcontent").style.display = 'none';
-    }
-    document.getElementById("HTMLcontent").style.display = 'block';
-    
+// Buttons
+const HTML = document.getElementById("HTML");	
+const CSS = document.getElementById("CSS");
+const SVG = document.getElementById("SVG");
+const IMG = document.getElementById("IMG");
+// contents 
+const HTMLcontent = document.getElementById("HTMLcontent");
+const CSScontent = document.getElementById("CSScontent");
+const SVGcontent = document.getElementById("SVGcontent");
+const IMGcontent = document.getElementById("IMGcontent");
+
+HTML.onclick = function(){
+    HTMLcontent.style.display = "block";
+    CSScontent.style.display = "none";
+    SVGcontent.style.display = "none";
+    IMGcontent.style.display = "none";
 }
-);
-
-document.getElementById("CSS").addEventListener("click", function(){
-
-    if (document.getElementById("HTMLcontent").style.display == 'block' ||
-    document.getElementById("IMGcontent").style.display == 'block'||
-    document.getElementById("SVGcontent").style.display == 'block') {
-        document.getElementById("HTMLcontent").style.display = 'none';
-        document.getElementById("IMGcontent").style.display = 'none';
-        document.getElementById("SVGcontent").style.display = 'none';
-    }
-    document.getElementById("CSScontent").style.display = 'block';
-    
+CSS.onclick = function(){
+    HTMLcontent.style.display = "none";
+    CSScontent.style.display = "block";
+    SVGcontent.style.display = "none";
+    IMGcontent.style.display = "none";
 }
-);
-
-document.getElementById("IMG").addEventListener("click", function(){
-
-    if (document.getElementById("HTMLcontent").style.display == 'block' ||
-    document.getElementById("CSScontent").style.display == 'block' ||
-    document.getElementById("SVGcontent").style.display == 'block') {
-        document.getElementById("HTMLcontent").style.display = 'none';
-        document.getElementById("CSScontent").style.display = 'none';
-        document.getElementById("SVGcontent").style.display = 'none';
-    }
-    document.getElementById("IMGcontent").style.display = 'block';
-    
+SVG.onclick = function(){
+    HTMLcontent.style.display = "none";
+    CSScontent.style.display = "none";
+    SVGcontent.style.display = "block";
+    IMGcontent.style.display = "none";
 }
-);
-
-document.getElementById("SVG").addEventListener("click", function(){
-
-if (document.getElementById("HTMLcontent").style.display == 'block' ||
- document.getElementById("CSScontent").style.display == 'block' ||
-document.getElementById("IMGcontent").style.display == 'block') {
-    document.getElementById("HTMLcontent").style.display = 'none';
-    document.getElementById("CSScontent").style.display = 'none';
-    document.getElementById("IMGcontent").style.display = 'none';
+IMG.onclick = function(){
+    HTMLcontent.style.display = "none";
+    CSScontent.style.display = "none";
+    SVGcontent.style.display = "none";
+    IMGcontent.style.display = "block";
 }
-document.getElementById("SVGcontent").style.display = 'block';
-
-}
-);
