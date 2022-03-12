@@ -1,6 +1,6 @@
 # bin/bash
 echo "Updating..."
 git add .
-git commit -m "added navigation to icons folder"
+git commit -m "deleted images"
 git push 
 echo "Done"
