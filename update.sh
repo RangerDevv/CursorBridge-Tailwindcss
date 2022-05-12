@@ -1,6 +1,6 @@
 # bin/bash
 echo "Updating..."
 git add .
-git commit -m "deleted images"
+git commit -m "Fiverr Logo and bug fixes"
 git push 
 echo "Done"
